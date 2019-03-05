@@ -6,9 +6,10 @@ My final Thinkful project is to build my portfolio app from scratch using the sk
 
 ### Tech Stack
 
-Front-End: React, React Hooks, HTML, CSS, FontAwesome 
-Hosting: .netlify 
+Front-End: React, React Hooks, HTML, CSS, FontAwesome<br>
+Hosting: .netlify
 
 ### Live Version Link
 
 Coming soon... 
+
