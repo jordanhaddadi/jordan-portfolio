@@ -23,18 +23,27 @@ let portfolioData = {
     "portfolio":[
       {
         "name":"HollyWomen",
-        "description":"webapp",
-        "imgurl":"/assets/roadrate.png"
+        "description": "Demographics Calculator",
+        "type":"Mobile & Web App",
+        "imgurl":"/assets/hollywomen.png",
+        "live": "https://gentle-chamber-56864.herokuapp.com/",
+        "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client"
       },
       {
         "name":"RoadRate",
-        "description":"mobileapp",
-        "imgurl":"/assets/roadrate.png"
+        "description": "Social App for rating drivers",
+        "type":"Mobile & Web App",
+        "imgurl":"/assets/roadrate.png",
+        "live": "https://road-rate-client.herokuapp.com/",
+        "source": "https://github.com/thinkful-ei26/roadrate-client",
       }, 
       {  
         "name":"Noteful",
-        "description":"webapp",
-        "imgurl":"/assets/roadrate.png"
+        "description": "A better way to stay organized",
+        "type":"Web App",
+        "imgurl":"/assets/noteful.png",
+        "live": "https://shrouded-atoll-85930.herokuapp.com/",
+        "source": "https://github.com/thinkful-ei26/jordan-noteful-v4",
       },
     ],
     "testimonials":[

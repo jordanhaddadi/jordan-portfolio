@@ -14,9 +14,12 @@ export const Portfolio = () => {
                 <div className="portfolio-item">
                   <ul className="portfolio-items">
                     <li id="portfolio-item">
+                      <a href={item.live}>
                         <img src={window.location.origin + `${item.imgurl}`} className="item-img"/>
-                        <h5>{item.name}</h5>
+                        <h2>{item.name}</h2></a>
                         <p>{item.description}</p>
+                        <h5>{item.type}</h5>
+                        <a href={item.source}><p>Source Code</p></a>
                     </li>
                   </ul>
                 </div>
