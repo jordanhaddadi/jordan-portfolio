@@ -1,0 +1,22 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#portfolio-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio-items {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img.item-img {
+    height: 350px;
+}

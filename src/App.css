@@ -1,11 +1,27 @@
-.App {
-  text-align: center;
+* {
+  outline: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 
+    "rubik";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F4F4F4;
+  list-style: none;
+  margin: auto auto;
+}
+
+html {
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.App {
+  text-align: center;
 }
 
 .App-header {
@@ -21,13 +37,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
