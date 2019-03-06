@@ -1,0 +1,31 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.resume-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50vh;
+    border-radius: 26px;
+    background-color: rgba(255, 255, 255, 0.973);
+    z-index: 2;
+    height: 575px;
+    max-height: 100%;
+    width: 675px;
+    max-width: 100%;
+    overflow: auto;
+  }
+
+.resume-button {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.226);
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px 22px;
+    border-radius: 6px;
+    margin-top: 2px;
+  }

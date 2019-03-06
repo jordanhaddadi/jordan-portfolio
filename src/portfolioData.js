@@ -20,6 +20,7 @@ let portfolioData = {
         "skill": "Learning: Sketch, Adobe Suite, Vue, Blaze"
       }
     ],
+    "resume":"/assets/resume.jpg",
     "portfolio":[
       {
         "name":"HollyWomen",

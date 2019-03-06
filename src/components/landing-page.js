@@ -2,6 +2,7 @@ import React from 'react';
 // import { Redirect } from 'react-router-dom';
 import About from './about.js';
 import Portfolio from './portfolio';
+import Resume from './resume';
 import portfolioData from '../portfolioData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -25,6 +26,7 @@ export const LandingPage = () => {
                         <p id="role-description">{portfolioData.roleDescription}</p>
                         <div className="about">
                             <About />
+                            <Resume />
                         </div>
                     </div>        
                 </div>
