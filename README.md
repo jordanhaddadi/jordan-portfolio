@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Living and loving in the North East, Jordan is passionate about the web, design, photography & travel. 
 
+## About My Portfolio
+
+My portfolio was created from scratch, without template or helpers, to showcase my skill as a developer & designer. You can view my resume, contact me through popular social platforms and/or email, view some recent works and learn more about me. 
+
 ## Live Version Link
 http://www.jordanhaddadi.com/
 
