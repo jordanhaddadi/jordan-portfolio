@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+
+font name: SourceSerifPro-Semibold
+font link: https://fonts.google.com/specimen/Source+Serif+Pro
+font author: Frank Grießhammer
+font author site: http://www.frgr.de/
+
+icon designer: Raji Purcell
+icon designer link: /raji.purcell
+        
+{"bg":"#ffffff","icon-gradient-0":"#70243D","icon-gradient-1":"#C15767","font":"#000000"}
+      
