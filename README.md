@@ -14,7 +14,10 @@ http://www.jordanhaddadi.com/
   - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Mobile Screenshot
+## Screenshot
 <img src='./src/assets/portfolio.png' alt='RoadRate Screenshot' width='300px'/>
-
+<img src='./src/assets/main-ss.png' alt='RoadRate Screenshot' width='300px'/>
+<img src='./src/assets/about-ss.png' alt='RoadRate Screenshot' width='300px'/>
+<img src='./src/assets/resume-ss.png' alt='RoadRate Screenshot' width='300px'/>
+<img src='./src/assets/contact-ss.png' alt='RoadRate Screenshot' width='300px'/>
 
