@@ -3,7 +3,7 @@ let portfolioData = {
     "role": "Front-End Development & Design",
     "image": "/assets/IMG_0033.JPG",
     "roleDescription": "Living and loving in the North East, Jordan is passionate about the web, design, photography & travel. Explore and learn more by clicking the links above or scrolling down for a look into past projects.",
-    "aboutme":"I am a passionate and creative Frontend Developer and Web Designer. I have been incredibly fortunate to have started travelling the world at a very young age. I credit my lust for life, aesthetic sense and inspiration for projects (both personal and professional) to the countries I have spent time in and the various cultures I have spent time with. As I continue to travel throughout my adult life, I build on my experience and bring it all together when it comes to my career. I find beauty in every detail, and will work tiredlessly until the desired output has been achieved.",
+    "aboutme":"I am a passionate and creative Front-End Developer and Web Designer. I have been incredibly fortunate to have started travelling the world at a very young age. I credit my lust for life, aesthetic sense and inspiration for projects (both personal and professional) to the countries I have spent time in and the various cultures I have spent time with. As I continue to travel throughout my adult life, I build on my experience and bring it all together when it comes to my career. I am driven by the excitement involved in creating something out of nothing. I find beauty in every detail, and will work tiredlessly until the desired output has been achieved.",
     "location":"East Coast",
     "skills":[
       {
