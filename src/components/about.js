@@ -66,24 +66,8 @@ export const About = () => {
                         }
                         </ul>
                     </div>
-                    <p id="connect">Don't be shy, say hi!</p>
-                <ul className="social-links">
-                        <li id="social-li">
-                            <a href="https://www.linkedin.com/in/jordan-haddadi/">
-                            {linkedIn}
-                            </a>
-                        </li>
-                        <li id="social-li">
-                            <a href="https://github.com/jordanhaddadi">
-                            {gitHub}
-                            </a>
-                        </li>
-                        <li id="social-li">
-                            <a href="https://twitter.com/johaddadi ">
-                            {twitter}
-                            </a>
-                        </li>     
-                </ul>
+                    
+                    
                 <p id="click-anywhere">click anywhere to close</p>
             </div>
        )
@@ -91,7 +75,7 @@ export const About = () => {
 
     return (
         <div className='about'>
-            <button className="about-button" id="about-button" onClick={() => setModalOpen('about')}>Learn More</button>
+            <button className="about-button" id="about-button" onClick={() => setModalOpen('about')}>About Me</button>
             {modalOpen && (
                 <AboutModal
                     show={modalOpen === 'about'}
