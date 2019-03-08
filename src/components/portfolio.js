@@ -6,14 +6,14 @@ export const Portfolio = () => {
 
     return (
       <section id="portfolio">
-          <h1>Featured Work: </h1>
+          <h1 id="portfolio-h1">Featured Work: </h1>
           <div id="portfolio-wrapper">
           { 
             portfolioData.portfolio && portfolioData.portfolio.map((item)=>{
               return(
                 <div className="portfolio-item">
-                  <ul className="portfolio-items">
-                    <li id="portfolio-item">
+                  <ul className="row">
+                    <li id="column">
                       <a href={item.live}>
                         <img src={window.location.origin + `${item.imgurl}`} className="item-img"/>
                         <h2>{item.name}</h2></a>

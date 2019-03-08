@@ -1,16 +1,16 @@
-.about-button {
-  color: whitesmoke;
-  background: rgba(0, 0, 0, 0.404);
-  border: none;
-  font-size: 15px;
-  font-weight: bolder;
-  padding: 5px 10px;
-  border-radius: 6px;
-  margin-top: 2px;
+.contact-button {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.404);
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 2px;
   }
 
 .overlay {
-  position: fixed;
+  position: fixed; 
   left: 0;
   right: 0;
   top: 0;
@@ -19,20 +19,27 @@
   background-color: rgba(0, 0, 0, 0.719);
 }
 
-.about-modal {
+.contact-modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50vh;
-  border-radius: 26px;
-  background-color: rgba(255, 255, 255, 0.973);
+  border-radius: 10px;
+  background-color: rgba(252, 252, 252, 0.904);
   z-index: 2;
-  height: 575px;
+  height: 220px;
   max-height: 100%;
-  width: 625px;
+  width: 320px;
   max-width: 100%;
   overflow: auto;
+}
+
+#contact-h1 {
+ color: rgb(112, 54, 112);
+ padding: 10px;
+ font-size: 38px;
+ text-decoration: underline;
 }
 
 .about-img {
@@ -43,28 +50,14 @@
     border-radius: 95px;
 }
 
-.modal-guts {
+.contact-guts {
   position: absolute;
   top: 20px;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-}
-
-#about-h1 {
-  font-size: 28px;
-  padding-bottom: 0px;
-  padding-top: 20px;
-  color: rgb(31, 28, 27);
-}
-
-#skills-h1 {
-    font-size: 28px;
-    color: rgb(31, 28, 27);
-    padding-top: 10px;
-    padding-bottom: 0px;
-}
+} 
 
 #click-anywhere {
   padding-top: 25px;
@@ -75,17 +68,6 @@
   display: none;
 }
 
-#about-me {
-    padding-bottom: 10px;
-    padding-top: 0px;
-}
-
-/* .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 #connect {
     color: rgb(44, 39, 36, 0.808);
     font-weight: bold;
@@ -93,19 +75,17 @@
     font-style: italic;
 }
 
-.all-skills{
+.contact-links {
     display: flex;
-    list-style: none;
+    justify-content: center;
     padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-  }
-
-.skills-li {
-    padding: 8px;
     padding-top: 0px;
     list-style: none;
     font-size: 20px;
+}
+
+#contact-li {
+    padding: 10px;
 }
 
 

@@ -1,14 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import portfolioData from '../portfolioData';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import '../styles/about.css';
 
-const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" color="teal"/>;
-const gitHub = <FontAwesomeIcon icon={faGithub} size="lg" color="black"/>;
-const twitter = <FontAwesomeIcon icon={faTwitter} size="lg" color="blue"/>;
+import '../styles/about.css';
 
 export const About = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -75,7 +68,7 @@ export const About = () => {
 
     return (
         <div className='about'>
-            <button className="about-button" id="about-button" onClick={() => setModalOpen('about')}>About Me</button>
+            <button className="about-button" id="about-button" onClick={() => setModalOpen('about')}>About</button>
             {modalOpen && (
                 <AboutModal
                     show={modalOpen === 'about'}

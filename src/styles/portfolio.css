@@ -1,25 +1,59 @@
-#portfolio {
+/* #portfolio {
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
+    justify-content: center;
+    flex-wrap: wrap;
+} */
 
-#portfolio-wrapper {
+/* #portfolio-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+} */
+
+.row {
+    padding: 0 4px;
 }
 
-.portfolio-items {
-    display: flex;
+#portfolio-h1 {
+    padding-top: 45px;
+}
+  
+#column img {
+    margin-top: -12px;
+}
+
+.portfolio-item {
     list-style: none;
     justify-content: center;
-    margin: 0 auto;
 }
 
 img.item-img {
-    max-height: 350px;
+    display: block;
+    max-height: 420px;
+    padding: 10px;
     height: 100%;
-    max-width: 200px;
+    max-width: 225px;
     width: 100%;
+    margin: auto;
+    box-align: center;
+    align-self: center;
+    align-content: center;
 }
+
+img:hover {
+    transform: scale (1.1);
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

@@ -2,24 +2,41 @@
     text-align: center;
     background: #f4f4f4;
     width: 100vw;
-    /* background-image: linear-gradient(to top left, rgb(86, 148, 156),#57bc90);  */
   }
   
   .landing-top {
+    position: relative;
     background:  linear-gradient(
-      rgba(230, 176, 189, 0.027), 
-      rgba(255, 255, 255, 0.541)
-    ), url('../assets/waterdogs.jpeg');
-    background-size: 100% 100%;
-    background-blend-mode: luminosity;
+      rgb(25, 109, 98), 
+      rgb(75, 11, 37)
+    ), url('../assets/snowedit.JPG');
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: exclusion;
   }
   
   .landing-content {
-    height: 70vh;
+    height: 80vh;
     align-items: center;
     display: flex;
     color: #414141;
     box-shadow: 0px 2px 6px 1px rgb(54, 60, 61, 0.1);
+    padding-bottom: 10px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .nav button {
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
   }
   
   .landing-text {
@@ -31,42 +48,49 @@
   
   .landing-text h1 {
     font-size: 52px;
-    color: rgb(255, 255, 255);
+    color:whitesmoke;
     margin-bottom: 5px;
   }
+
+.social {
+  padding: 0px;
+  font-size: 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+  margin-left: 10%;
+  margin-right: 25%;
+  padding-top: 35px;
+  font-size: 20px;
+}
   
   #role {
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 1px;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: #201b1b;
+    color: #ffffff;
   }
 
   #role-description {
-    color: #201b1b;
+    color: #000000;
     font-style: italic;
     font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+    max-width: 800px;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
+    background: #ffffffa6;
   }
   
-  /* .about {
-    margin-top: 10px;
-  } */
-  
-  #landing-img {
-    border-style: none;
-    /* max-width: 100%; */
-    border-radius: 50%;
-    /* height: 62%; */
-    /* width: 50%; */
-    margin: 12px;
-    height: 200px;
-    width: 200px;
-    display: none;
-  }
+ 
