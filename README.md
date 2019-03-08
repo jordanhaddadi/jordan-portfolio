@@ -6,7 +6,7 @@ Living and loving in the North East, Jordan is passionate about the web, design,
 
 ## About My Portfolio
 
-My portfolio was created from scratch, without template or helpers, to showcase my skill as a developer & designer. You can view my resume, contact me through popular social platforms and/or email, view some recent works and learn more about me. 
+My portfolio was created from scratch, without template or helpers, to showcase my skill as a developer & designer. You can learn more about my skill sets and passions through the 'about me' link, view my resume, contact me through popular social platforms and/or email, and peruse  some of my projects that are currently being featured. 
 
 ## Live Version Link
 http://www.jordanhaddadi.com/
