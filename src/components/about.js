@@ -31,7 +31,7 @@ export const About = () => {
                 <div className="about-modal">
                     <div className="modal-guts">
                         <img src={window.location.origin + `${portfolioData.image}`} className="about-img"/>
-                        <h1 id="about-h1">Who Am I?</h1>
+                        <h1 id="about-h1">About Me</h1>
                         <div className="content" ref={modalRef}>
                             <AboutSection />
                         </div>
@@ -45,7 +45,7 @@ export const About = () => {
         return (
             <div className="about">
                 <p id="about-me">{portfolioData.aboutme}</p>
-                <h1 id="skills-h1">What are my skills?</h1>
+                <h1 id="skills-h1">Skills</h1>
                     <div className="skills">
                         <ul className="all-skills">
                         {
