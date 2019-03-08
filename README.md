@@ -1,8 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## About My Porfolio
+# Jordan Elizabeth Haddadi 
 
-My final Thinkful project is to build my portfolio app from scratch using the skills I have learned in the program. 
+Living and loving in the North East, Jordan is passionate about the web, design, photography & travel. 
+
+## Live Version Link
+http://www.jordanhaddadi.com/
 
 ## Tech Stack
 **Front End:** 
@@ -11,7 +14,7 @@ My final Thinkful project is to build my portfolio app from scratch using the sk
   - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
   - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### Live Version Link
+## Mobile Screenshot
+<img src='./src/assets/portfolio.png' alt='RoadRate Screenshot' width='300px'/>
 
-Coming soon... 
 
