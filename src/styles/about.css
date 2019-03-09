@@ -30,7 +30,7 @@
   z-index: 2;
   height: 575px;
   max-height: 100%;
-  width: 625px;
+  width: 525px;
   max-width: 100%;
   overflow: auto;
 }
@@ -61,6 +61,11 @@
   color: rgb(31, 28, 27);
 }
 
+.skills {
+  margin-top: -15px;
+  text-align: left;
+}
+
 #skills-h1 {
     font-size: 28px;
     color: rgb(31, 28, 27);
@@ -80,13 +85,8 @@
 #about-me {
     padding-bottom: 10px;
     padding-top: 0px;
+    text-align: left;
 }
-
-/* .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 #connect {
     color: rgb(44, 39, 36, 0.808);
@@ -96,18 +96,18 @@
 }
 
 .all-skills{
-    display: flex;
-    list-style: none;
+    list-style: decimal-leading-zero;
     padding: 10px;
-    padding-top: 0px;
     padding-bottom: 10px;
+    width: 100%;
+    max-width: 450px;
   }
 
-.skills-li {
-    padding: 8px;
-    padding-top: 0px;
-    list-style: none;
-    font-size: 20px;
+#skill-name {
+  font-weight: bold;
 }
 
+#skill {
+  font-size: 16px;
+}
 

@@ -30,7 +30,7 @@ export const Resume = () => {
         return (
             <div className="overlay">
                 <div className="resume-modal">
-                    <div className="modal-guts">
+                    <div className="resume-guts">
                         <div className="resume-content" ref={modalRef}>
                             <ResumeSection />
                         </div>

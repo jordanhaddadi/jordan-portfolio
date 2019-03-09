@@ -3,20 +3,24 @@ let portfolioData = {
     "role": "Front-End Development & Design",
     "image": "/assets/IMG_0033.JPG",
     "roleDescription": "Jordan is passionate about the web, design, photography & travel. Explore and learn more by clicking the links above or scrolling down for a look into past projects.",
-    "aboutme":"Living and loving in the American Northeast, I've been incredible fortunate to have traveled the world at a very young age. I credit my lust for life and aesthetic sensibility to the countries and cultures that have shaped me. As I continue to travel, I strive to bring it all together in my work. I'm inspired by the idea of creating something out of nothing, finding beauty in every detail, and working tirelessly towards a goal. ",
+    "aboutme":"   Living and loving in the American Northeast, I've been incredible fortunate to have traveled the world at a very young age. I credit my lust for life and aesthetic sensibility to the countries and cultures that have shaped me. As I continue to travel, I strive to bring it all together in my work. I'm inspired by the idea of creating something out of nothing, finding beauty in every detail, and working tirelessly towards a goal. ",
     "location":"East Coast",
     "skills":[
       {
-        "skill":"Font-End: JavaScript, ES5, ES6, React, React Hooks, Redux, jQuery, HTML5, CSS3, Materialize, APIs"
+        "skillName":"Font-End: ",
+        "skill":"JavaScript, ES5, ES6, React, React Hooks, Redux, jQuery, HTML5, CSS3, Materialize, APIs",
       },
       {
-        "skill":"Back-End: Node.js, Meteor, GraphQL, Mongo, Mongoose, Postgres, SQL, TDD with Mocha & Chai"
+        "skillName":"Back-End: ",
+        "skill":"Node.js, Meteor, GraphQL, Mongo, Mongoose, Postgres, SQL, TDD with Mocha & Chai"
       },
       {
-        "skill":"Dev Tools: Git/GitHub, NPM, Trello"
+        "skillName":"Dev Tools: ",
+        "skill":"Git/GitHub, NPM, Trello"
       },
       {
-        "skill": "Learning: Sketch, Adobe Suite, Vue, Blaze"
+        "skillName":"Now Learning: ",
+        "skill": "Sketch, Adobe Suite, Vue, Blaze"
       }
     ],
     "resume":"/assets/resume.jpg",

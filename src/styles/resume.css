@@ -1,6 +1,7 @@
 img {
     height: 100%;
     width: 100%;
+    padding: 0;
 }
 
 .resume-modal {
@@ -16,6 +17,10 @@ img {
     max-height: 100%;
     width: 675px;
     max-width: 100%;
+    overflow: auto;
+  }
+
+  .resume-guts {
     overflow: auto;
   }
 

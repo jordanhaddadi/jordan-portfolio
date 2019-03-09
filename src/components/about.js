@@ -45,14 +45,15 @@ export const About = () => {
         return (
             <div className="about">
                 <p id="about-me">{portfolioData.aboutme}</p>
-                <h1 id="skills-h1">Skills</h1>
+                <h1 id="skills-h1">Technical Stack</h1>
                     <div className="skills">
                         <ul className="all-skills">
                         {
                             portfolioData.skills && portfolioData.skills.map((item)=>{
                                 return(
                                 <li className="skills-li">
-                                    {item.skill}
+                                    <p id="skill-name">{item.skillName}</p>
+                                   <p id="skill"> {item.skill}</p>
                                 </li>
                                 )
                             })
