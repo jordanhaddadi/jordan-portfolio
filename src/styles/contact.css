@@ -36,10 +36,10 @@
 }
 
 #contact-h1 {
- color: rgb(112, 54, 112);
+ color: rgb(88, 13, 88);
  padding: 10px;
- font-size: 38px;
- text-decoration: underline;
+ font-size: 40px;
+ font-weight: bolder;
 }
 
 .about-img {
