@@ -7,10 +7,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import '../styles/contact.css';
 
-const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" color="navy"/>;
-const gitHub = <FontAwesomeIcon icon={faGithub} size="lg" color="black"/>;
-const twitter = <FontAwesomeIcon icon={faTwitter} size="lg" color="blue"/>;
-const email = <FontAwesomeIcon icon={faEnvelope} size="lg" color="hotpink"/>;
+const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" style={{color: "#085943"}}/>;
+const gitHub = <FontAwesomeIcon icon={faGithub} size="lg" style={{color: "#000000"}}/>;
+const twitter = <FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#2706e5"}}/>;
+const email = <FontAwesomeIcon icon={faEnvelope} size="lg" style={{color:"#ed84b7"}}/>;
 
 export const Contact = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -39,7 +39,7 @@ export const Contact = () => {
               <div className="overlay">
                 <div className="contact-modal">
                     <div className="contact-guts">
-                        <h1 id="contact-h1">get in touch!</h1>
+                        <h1 id="contact-h1">drop me a line</h1>
                         <div className="content" ref={modalRef}>
                             <ContactSection />
                         </div>
