@@ -29,10 +29,10 @@ let portfolioData = {
         "name":"HollyWomen",
         "description": "Demographics Calculator",
         "type":"Mobile & Web App",
-        "imgurl":"/assets/hollywomen.png",
+        "imgurl":"/assets/hollywomen-update.png",
         "live": "https://gentle-chamber-56864.herokuapp.com/",
         "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client"
-      },
+      }, 
       {
         "name":"RoadRate",
         "description": "Social App for rating drivers",
