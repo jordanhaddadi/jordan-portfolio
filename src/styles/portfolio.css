@@ -19,6 +19,12 @@
   
 #column img {
     margin-top: -12px;
+    justify-content: center;
+}
+
+#app-description {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .portfolio-item {
@@ -28,10 +34,10 @@
 
 img.item-img {
     display: block;
-    max-height: 420px;
     padding: 10px;
+    max-width: 600px;
+    max-height: 600px;
     height: 100%;
-    max-width: 225px;
     width: 100%;
     margin: auto;
     box-align: center;

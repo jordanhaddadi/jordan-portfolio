@@ -15,11 +15,11 @@ export const Portfolio = () => {
                   <ul className="row">
                     <li id="column">
                       <a href={item.live}>
-                        <img src={window.location.origin + `${item.imgurl}`} className="item-img"/>
-                        <h2>{item.name}</h2></a>
-                        <p>{item.description}</p>
-                        <h5>{item.type}</h5>
+                      <h2>{item.name}</h2></a>
+                      <h5>{item.type}</h5>
+                      <p id="app-description">{item.description}</p>
                         <a href={item.source}><p>Source Code</p></a>
+                        <img src={window.location.origin + `${item.imgurl}`} className="item-img"/>
                     </li>
                   </ul>
                 </div>

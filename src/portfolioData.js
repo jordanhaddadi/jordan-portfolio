@@ -27,25 +27,25 @@ let portfolioData = {
     "portfolio":[
       {
         "name":"HollyWomen",
-        "description": "Demographics Calculator",
+        "description": "Demographics Calculator for educational purposes only. Enter any Movie or TV Show to view poster titles. Click on individual posters to see how many women were cast in proportion to men.",
         "type":"Mobile & Web App",
-        "imgurl":"/assets/hollywomen-update.png",
+        "imgurl":"/assets/holly-double.png",
         "live": "https://gentle-chamber-56864.herokuapp.com/",
         "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client"
       }, 
       {
         "name":"RoadRate",
-        "description": "Social App for rating drivers",
+        "description": "Social App for rating drivers. Register plates, browse/leave/edit reviews and boost your karma score in this one-of-a-kind social experience for driving accountability.",
         "type":"Mobile & Web App",
-        "imgurl":"/assets/roadrate.png",
+        "imgurl":"/assets/road-work.png",
         "live": "https://road-rate-client.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/roadrate-client",
       }, 
       {  
         "name":"Alternis Vicibus",
-        "description": "A smarter, easier way to learn Medical Terminology",
+        "description": "A smarter, easier way to learn Medical Terminology. Using a spaced repition algorithm, learn quicker and faster -- the app tracks your correct and incorrect answers spacing them out accordingly.",
         "type":"Mobile & Web App",
-        "imgurl":"/assets/alternisvicibus.png",
+        "imgurl":"/assets/spaced-reppy-2.png",
         "live": "https://alternis-vicibus.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/spaced-rep-jordan-client",
       },
