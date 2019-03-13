@@ -1,7 +1,7 @@
 .home {
     text-align: center;
     background: white;
-    width: 100vw;
+    width: 100%;
   }
   
   .landing-top {
@@ -48,7 +48,7 @@
   
   .landing-text h1 {
     font-size: 52px;
-    color:whitesmoke;
+    color:black;
     margin-bottom: 5px;
   }
 
@@ -77,7 +77,7 @@
     letter-spacing: 1px;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: #ffffff;
+    color: whitesmoke;
   }
 
   #role-description {
@@ -109,6 +109,19 @@
     background-color: #ed84b7;
     box-shadow: 0 1px #666;
     transform: translateY(4px);
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav {
+    margin: 0 auto;
+    max-width: 80px;
+    justify-content: center;
+    }
+
+    .body {
+      max-width: 600px;
+      width: 100%;
+    }
   }
   
  

@@ -18,7 +18,7 @@ export const LandingPage = () => {
                         <p id="role">{portfolioData.role}</p>
                         <div className="nav">
                             <ScrollIntoView selector=".landing-portfolio">
-                                <button className="portfolio-button">My Work</button>
+                                <button className="portfolio-button">Portfolio</button>
                             </ScrollIntoView>
                              <ScrollIntoView selector=".landing-about">
                                 <button className="about-button">About</button>
