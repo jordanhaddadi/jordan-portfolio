@@ -96,10 +96,19 @@
     padding-bottom: 10px;
     padding-top: 0px;
     text-align: left;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     width: 100%;
     text-indent: 50px;
+}
+
+#countries {
+  padding-bottom: 10px;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+  text-indent: 50px;
 }
 
 #icon-female {
@@ -111,6 +120,7 @@
 }
 
 #icon-plane {
+  margin: 20px;
   transform: rotate(-35deg);
 }
 
@@ -145,6 +155,8 @@
   justify-content: center;
   margin: 40px;
   border: 1px solid grey;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {

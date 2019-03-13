@@ -42,6 +42,10 @@
   justify-content: center;
   margin: 40px;
   border: 1px solid grey;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 #contact-h1 {
