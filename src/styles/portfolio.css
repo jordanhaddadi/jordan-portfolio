@@ -4,10 +4,11 @@
     flex-wrap: wrap;
 } */
 
-/* #portfolio-wrapper {
-    display: flex;
-    flex-direction: row;
-} */
+#portfolio-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
 
 .portfolio-button {
     color: whitesmoke;
@@ -54,11 +55,7 @@
     list-style: none;
     justify-content: center;
     border: 1px solid grey;
-    margin: 40px;
     background: #f4f4f4;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 50px;
 }
 
 img.item-img {
