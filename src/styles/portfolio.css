@@ -9,6 +9,18 @@
     flex-direction: row;
 } */
 
+.portfolio-button {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.404);
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+  } 
+
 .row {
     padding: 0 4px;
     list-style: none;
@@ -16,6 +28,7 @@
 
 #portfolio-h1 {
     padding-top: 45px;
+    font-size: 40px;
 }
   
 #column img {

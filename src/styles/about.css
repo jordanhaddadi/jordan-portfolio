@@ -59,7 +59,7 @@
   font-size: 28px;
   padding-bottom: 0px;
   padding-top: 20px;
-  color: #423e58;
+  color: black;
 }
 
 .skills {
@@ -69,7 +69,7 @@
 
 #skills-h1 {
     font-size: 28px;
-    color: #423e58;
+    color:  black;
     padding-top: 10px;
     padding-bottom: 0px;
 }
@@ -87,6 +87,9 @@
     padding-bottom: 10px;
     padding-top: 0px;
     text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #connect {
@@ -97,12 +100,14 @@
 }
 
 .all-skills{
-    list-style: decimal-leading-zero;
-    padding: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    max-width: 450px;
-  }
+  list-style: decimal-leading-zero;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+}
 
 #skill-name {
   font-weight: bold;
@@ -110,5 +115,27 @@
 
 #skill {
   font-size: 16px;
+  max-width: 150px;
+}
+
+.about {
+  background:#c99ba144;
+  justify-content: center;
+  margin: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .all-skills {
+    display: block;
+    margin-left: 15%;
+    padding-top: 10px;
+    max-width: 100%;
+  }
+
+  #about-me {
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
+  }
 }
 

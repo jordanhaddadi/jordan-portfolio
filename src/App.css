@@ -38,3 +38,13 @@ html {
 .App-link {
   color: #61dafb;
 }
+
+button:hover {
+  background-color: #ed84b7;
+}
+
+button:active {
+  background-color: #ed84b7;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}

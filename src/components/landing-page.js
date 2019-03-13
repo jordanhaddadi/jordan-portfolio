@@ -25,18 +25,21 @@ export const LandingPage = () => {
                         <h1>{portfolioData.name}</h1>
                         <p id="role">{portfolioData.role}</p>
                         <div className="nav">
+                            <ScrollIntoView selector=".landing-portfolio">
+                                <button className="portfolio-button">My Work</button>
+                            </ScrollIntoView>
                              <ScrollIntoView selector=".landing-about">
-                                <button>About</button>
+                                <button className="about-button">About</button>
                             </ScrollIntoView>
                             <ScrollIntoView selector=".landing-contact">
-                                <button>Contact</button>
+                                <button className="contact-button">Contact</button>
                             </ScrollIntoView>
                             <Resume />
                         </div>
-                        <p id="role-description">{portfolioData.roleDescription}</p>
                     </div>        
                 </div>
             </div>
+            <p id="role-description">{portfolioData.roleDescription}</p>
             <div className="landing-portfolio">
                 <Portfolio />
             </div>
@@ -45,6 +48,11 @@ export const LandingPage = () => {
             </div>
             <div className="landing-contact">
                 <ContactSection />
+            </div>
+            <div className="back-to-top">
+                <ScrollIntoView selector=".landing-top">
+                    <button className="top-button">Back to the top</button>
+                </ScrollIntoView>
             </div>
         </div>
     );

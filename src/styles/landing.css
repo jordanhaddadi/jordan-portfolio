@@ -18,7 +18,7 @@
   }
   
   .landing-content {
-    height: 80vh;
+    height: 88vh;
     align-items: center;
     display: flex;
     color: #414141;
@@ -81,16 +81,34 @@
   }
 
   #role-description {
-    color: #000000;
+    color: #ffffff;
     font-style: italic;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 15px;
-    max-width: 800px;
-    width: 100%;
-    font-size: 16px;
-    background: #ffffffa6;
+    padding: 10px;
+    font-size: 14px;
+    background: #000000b9;
+  }
+
+  .top-button {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.404);
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  } 
+
+  .top-button :hover {
+    background-color: #ed84b7;
+  }
+
+  .top-button :active {
+    background-color: #ed84b7;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
   }
   
  
