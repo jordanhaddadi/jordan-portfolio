@@ -31,7 +31,7 @@ let portfolioData = {
         "tech":"Node.js, Express, GraphQL, MongoDB, React/Redux, Mocha/Chai, TravisCI, Heroku",
         "type":"Mobile & Web App",
         "imgurl":"/assets/holly-double.png", 
-        "live": "https://gentle-chamber-56864.herokuapp.com/",
+        "live": "https://hollywomen.herokuapp.com/",
         "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client"
       }, 
       {
