@@ -1,8 +1,7 @@
 import React from 'react';
 import portfolioData from '../portfolioData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTools, faInfoCircle, faMobileAlt, faLaptop} from '@fortawesome/free-solid-svg-icons'
-import { faSourcetree } from '@fortawesome/free-brands-svg-icons'
+import { faTools, faInfoCircle, faMobileAlt, faLaptop, faCodeBranch} from '@fortawesome/free-solid-svg-icons'
 
 import '../styles/portfolio.css';
 
@@ -10,7 +9,7 @@ const tools = <FontAwesomeIcon icon={faTools} size="lg" style={{color: "black"}}
 const info = <FontAwesomeIcon icon={faInfoCircle} size="lg" style={{color: "#01405d"}}/>;
 const mobile = <FontAwesomeIcon icon={faMobileAlt} size="lg" style={{color: "#black"}}/>;
 const web = <FontAwesomeIcon icon={faLaptop} size="lg" style={{color: "#black"}}/>;
-const src = <FontAwesomeIcon icon={faSourcetree} size="lg" style={{color: "#black"}}/>;
+const src = <FontAwesomeIcon icon={faCodeBranch} size="lg" style={{color: "#black"}}/>;
 
 
 export const Portfolio = () => {
@@ -29,10 +28,6 @@ export const Portfolio = () => {
                       <h2>{item.name}</h2></a>
                       {mobile} + {web}
                       <h5>{item.type}</h5>
-                      <div id="app-info">
-                        {info}
-                        <p id="app-description">{item.description}</p>
-                      </div>
                       <div id="tech-tools">
                         {tools}
                         <p id="app-tech">{item.tech}</p>
@@ -40,6 +35,10 @@ export const Portfolio = () => {
                         {src}
                         <a href={item.source}><p>Source Code</p></a>
                         <img src={window.location.origin + `${item.imgurl}`} className="item-img" alt="screenshot"/>
+                      <div id="app-info">
+                        {info}
+                        <p id="app-description">{item.description}</p>
+                      </div>
                     </li>
                   </ul>
                 </div>

@@ -41,8 +41,9 @@
     height: 100%;
     max-width: 200px;
     width: 100%;
-    border-radius: 95px;
+    border-radius: 100px;
     margin-top: 30px;
+    border: 1px solid white;
 }
 
 .modal-guts {
@@ -91,6 +92,15 @@
     max-width: 600px;
     margin: 0 auto;
     width: 100%;
+    text-indent: 50px;
+}
+
+#icon-female {
+  margin: 20px;
+}
+
+#icon-tools {
+  margin: 20px;
 }
 
 #connect {
