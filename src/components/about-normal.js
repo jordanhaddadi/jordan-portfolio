@@ -15,7 +15,7 @@ export const AboutSection = () => {
                 <h1 id="about-h1">About Me</h1>
                 <div id="icon-female">{female}</div>
                 <p id="about-me">{portfolioData.aboutme}</p>
-                <h1 id="countries-h1">Countries I've Visited</h1>
+                <h1 id="countries-h1">Where I've Been</h1>
                 <div id="icon-plane">{plane}</div>
                 <p id="countried">{portfolioData.countries}</p>
                 <h1 id="skills-h1">Technical Stack</h1>
