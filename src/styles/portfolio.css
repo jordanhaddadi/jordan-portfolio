@@ -11,6 +11,7 @@
 
 .row {
     padding: 0 4px;
+    list-style: none;
 }
 
 #portfolio-h1 {
@@ -22,31 +23,40 @@
     justify-content: center;
 }
 
+#app-info {
+    margin: 15px;
+}
+
+#tech-tools {
+    margin: 15px;
+}
+
 #app-description {
-    max-width: 500px;
     margin: 0 auto;
+    max-width: 300px;
+    padding-top: 15px;
 }
 
 .portfolio-item {
     list-style: none;
     justify-content: center;
+    border: 1px solid grey;
+    margin: 40px;
 }
 
 img.item-img {
     display: block;
-    padding: 10px;
     max-width: 600px;
     max-height: 600px;
     height: 100%;
     width: 100%;
     margin: auto;
-    box-align: center;
-    align-self: center;
-    align-content: center;
+    cursor: pointer;
 }
 
 img:hover {
     transform: scale (1.1);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

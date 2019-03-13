@@ -7,7 +7,7 @@ export const Resume = () => {
 
     const [modalOpen, setModalOpen] = useState(false);
 
-    const onClose = () => setModalOpen(false);
+    const onClose = () => setModalOpen(false); 
 
     const clickOutside = (ref, onClose) => {
         const statusChange = (e) => {
