@@ -76,6 +76,13 @@
     padding-bottom: 0px;
 }
 
+#countries-h1 {
+  font-size: 28px;
+    color:  black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
 #click-anywhere {
   padding-top: 25px;
   font-style: italic;
@@ -101,6 +108,10 @@
 
 #icon-tools {
   margin: 20px;
+}
+
+#icon-plane {
+  transform: rotate(-35deg);
 }
 
 #connect {
