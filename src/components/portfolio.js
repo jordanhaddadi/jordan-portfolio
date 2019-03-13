@@ -1,13 +1,16 @@
 import React from 'react';
 import portfolioData from '../portfolioData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTools, faInfoCircle, faTabletAlt} from '@fortawesome/free-solid-svg-icons'
+import { faTools, faInfoCircle, faMobileAlt, faLaptop} from '@fortawesome/free-solid-svg-icons'
+import { faSourcetree } from '@fortawesome/free-brands-svg-icons'
 
 import '../styles/portfolio.css';
 
 const tools = <FontAwesomeIcon icon={faTools} size="lg" style={{color: "black"}}/>;
 const info = <FontAwesomeIcon icon={faInfoCircle} size="lg" style={{color: "#01405d"}}/>;
-const screen = <FontAwesomeIcon icon={faTabletAlt} size="lg" style={{color: "#black"}}/>;
+const mobile = <FontAwesomeIcon icon={faMobileAlt} size="lg" style={{color: "#black"}}/>;
+const web = <FontAwesomeIcon icon={faLaptop} size="lg" style={{color: "#black"}}/>;
+const src = <FontAwesomeIcon icon={faSourcetree} size="lg" style={{color: "#black"}}/>;
 
 
 export const Portfolio = () => {
@@ -24,7 +27,7 @@ export const Portfolio = () => {
                     <li id="column">
                       <a href={item.live}>
                       <h2>{item.name}</h2></a>
-                      {screen}
+                      {mobile} + {web}
                       <h5>{item.type}</h5>
                       <div id="app-info">
                         {info}
@@ -34,8 +37,9 @@ export const Portfolio = () => {
                         {tools}
                         <p id="app-tech">{item.tech}</p>
                       </div>
+                        {src}
                         <a href={item.source}><p>Source Code</p></a>
-                        <img src={window.location.origin + `${item.imgurl}`} className="item-img"/>
+                        <img src={window.location.origin + `${item.imgurl}`} className="item-img" alt="screenshot"/>
                     </li>
                   </ul>
                 </div>

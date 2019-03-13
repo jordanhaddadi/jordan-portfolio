@@ -4,7 +4,7 @@ import portfolioData from '../portfolioData';
 export const AboutSection = () => {
         return (
             <div className="about">
-                <img src={window.location.origin + `${portfolioData.image}`} className="about-img"/>
+                <img src={window.location.origin + `${portfolioData.image}`} className="about-img" alt="jordan-selfie"/>
                 <h1 id="about-h1">About Me</h1>
                 <p id="about-me">{portfolioData.aboutme}</p>
                 <h1 id="skills-h1">Technical Stack</h1>
