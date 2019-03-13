@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+import '../styles/contact.css';
+
 const linkedIn = <FontAwesomeIcon icon={faLinkedin} size="lg" style={{color: "#085943"}}/>;
 const gitHub = <FontAwesomeIcon icon={faGithub} size="lg" style={{color: "#000000"}}/>;
 const twitter = <FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#2706e5"}}/>;

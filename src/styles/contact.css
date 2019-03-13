@@ -36,6 +36,14 @@
   overflow: auto;
 }
 
+.contact-wrapper {
+  background: #c9be9b44;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 40px;
+  border: 1px solid grey;
+}
+
 #contact-h1 {
  color:#000000;
  padding: 10px;

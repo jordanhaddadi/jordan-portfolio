@@ -42,6 +42,7 @@
     max-width: 200px;
     width: 100%;
     border-radius: 95px;
+    margin-top: 30px;
 }
 
 .modal-guts {
@@ -122,6 +123,7 @@
   background:#c99ba144;
   justify-content: center;
   margin: 40px;
+  border: 1px solid grey;
 }
 
 @media screen and (max-width: 600px) {
