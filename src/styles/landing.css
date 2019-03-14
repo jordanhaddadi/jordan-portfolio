@@ -8,7 +8,7 @@
     background:  linear-gradient(
       rgb(25, 109, 98), 
       rgb(75, 11, 37)
-    ), url('../assets/snowedit.JPG');
+    ), url('../assets/waterdogs.jpeg');
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   
   .landing-text h1 {
     font-size: 52px;
-    color:black;
+    color:white;
     margin-bottom: 5px;
   }
 
@@ -73,7 +73,7 @@
     letter-spacing: 1px;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: whitesmoke;
+    color: #f5f5f5bf;
   }
 
   #role-description {
