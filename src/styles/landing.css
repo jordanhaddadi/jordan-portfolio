@@ -25,6 +25,10 @@
     padding-bottom: 10px;
   }
 
+  .landing-about {
+    margin-top: 100px;
+  }
+
   .nav {
     display: flex;
     justify-content: space-between;
