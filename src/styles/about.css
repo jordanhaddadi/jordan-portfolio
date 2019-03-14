@@ -134,7 +134,7 @@
 }
 
 .all-skills{
-  list-style: decimal-leading-zero;
+  list-style: upper-roman;
   display: flex;
   margin: 0 auto;
   padding-bottom: 10px;
