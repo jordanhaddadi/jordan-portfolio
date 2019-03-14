@@ -23,8 +23,19 @@
   color: black;
 }
 
+.where-im-at {
+  list-style: none;
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#location-title {
+  font-weight: bold;
+}
+
 .places {
-  list-style: upper-roman;
   padding-bottom: 10px;
   justify-content: center;
   max-width: 700px;
@@ -33,7 +44,7 @@
 }
 
 #places-h1 {
-  font-size: 20px;
+  font-size: 28px;
   color:  black;
   padding-top: 10px;
   padding-bottom: 0px;
@@ -128,6 +139,10 @@
   max-width: 550px;
 }
 
+#location-h1 {
+  font-size: 28px;
+}
+
 #location-sub {
   padding-bottom: 10px;
   text-align: left;
@@ -172,19 +187,9 @@
 
 .all-places{
   list-style: none;
-  list-style: upper-roman;
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
-}
-
-#skill-name {
-  font-weight: bold;
-}
-
-#skill {
-  font-size: 16px;
-  max-width: 150px;
 }
 
 .about {

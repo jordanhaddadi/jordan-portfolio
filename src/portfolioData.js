@@ -33,9 +33,24 @@ let portfolioData = {
         "Places":"Hawaii, Quebec"
       },
     ],
-    "location":"Currently: Portland, Maine.",
-    "location-sub":"I recently spent 10 years split between San Francisco and Brooklyn. Today you'll find me travelling up and down the East Coast between Maine, New York City and Boston. ",
-    "location-sub-2":"I am currently open to remote work and/or opportunities that may require travel.",
+    "location":[
+      {
+        "title": "Currently : ",
+        "desc": "Portland, Maine. You will likely find me planning my next big trip while travelling up and down the East Coast between Maine, New Hampshire, New York City and Boston."
+      }
+    ],
+    "location-sub":[
+      {
+        "title": "Recently : ",
+        "desc": "10 years split between San Francisco and Brooklyn."
+      }
+    ],
+    "location-sub-2":[
+      {
+        "title": "Availability : ",
+        "desc": "I am currently open to remote work and/or opportunities that may require travel."
+      }
+    ],
     "skills":[
       {
         "skillName":"Font-End: ",

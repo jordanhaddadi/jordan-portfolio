@@ -18,11 +18,42 @@ export const AboutSection = () => {
                 <p id="about-me-sub">{portfolioData["about-me-sub"]}</p>
                 <p id="about-me-sub-2">{portfolioData["about-me-sub-2"]}</p>
                 <p id="about-me-sub-3">{portfolioData["about-me-sub-3"]}</p>
+                
                 <h1 id="location-h1">Where I'm At</h1>
                 <div id="icon-pin">{pin}</div>
-                <p id="location">{portfolioData.location}</p>
-                <p id="location-sub">{portfolioData["location-sub"]}</p>
-                <p id="location-sub-2">{portfolioData["location-sub-2"]}</p>
+                <ul className="where-im-at">
+                    {
+                        portfolioData.location && portfolioData.location.map((item)=>{
+                            return(
+                                <li className="location-li">
+                                    <p id="location-title">{item.title}</p>
+                                    <p id="desc"> {item.desc}</p>
+                                </li>
+                            )
+                        })
+                    }
+                    {
+                        portfolioData["location-sub"] && portfolioData["location-sub"].map((item)=>{
+                            return(
+                                <li className="location-li">
+                                    <p id="location-title">{item.title}</p>
+                                    <p id="desc"> {item.desc}</p>
+                                </li>
+                            )
+                        })
+                    }
+                    {
+                        portfolioData["location-sub-2"] && portfolioData["location-sub-2"].map((item)=>{
+                            return(
+                                <li className="location-li">
+                                    <p id="location-title">{item.title}</p>
+                                    <p id="desc"> {item.desc}</p>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+                
                 <div className="places-section">
                     <h1 id="places-h1">Where I've Been</h1>
                     <div id="icon-plane">{plane}</div>
