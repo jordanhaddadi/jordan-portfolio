@@ -32,11 +32,11 @@ export const LandingPage = () => {
                 </div>
             </div>
             <p id="role-description">{portfolioData.roleDescription}</p>
-            <div className="landing-portfolio">
-                <Portfolio />
-            </div>
             <div className="landing-about">
                 <AboutSection />
+            </div>
+            <div className="landing-portfolio">
+                <Portfolio />
             </div>
             <div className="landing-contact">
                 <ContactSection />

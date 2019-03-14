@@ -14,7 +14,7 @@ export const ContactSection = () => {
         return (
             <div className="contact">
                 <div className="contact-wrapper">
-                    <h1 id="contact-h1">drop me a line</h1>
+                    <h1 id="contact-h1">drop me a line!</h1>
                     <ul className="contact-links">
                         <li id="contact-li">
                             <a href="mailto:jordanhaddadi@gmail.com">

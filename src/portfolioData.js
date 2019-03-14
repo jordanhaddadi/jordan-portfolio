@@ -33,7 +33,8 @@ let portfolioData = {
         "type":"Mobile & Web App",
         "imgurl":"/assets/holly-double.png", 
         "live": "https://hollywomen.herokuapp.com/",
-        "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client"
+        "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client",
+        "key":"i"
       }, 
       {
         "name":"RoadRate",
@@ -43,6 +44,7 @@ let portfolioData = {
         "imgurl":"/assets/road-work.png",
         "live": "https://road-rate-client.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/roadrate-client",
+        "key":"j"
       }, 
       {  
         "name":"Alternis Vicibus",
@@ -52,6 +54,7 @@ let portfolioData = {
         "imgurl":"/assets/spaced-reppy-2.png",
         "live": "https://alternis-vicibus.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/spaced-rep-jordan-client",
+        "key":"x"
       },
     ],
   }

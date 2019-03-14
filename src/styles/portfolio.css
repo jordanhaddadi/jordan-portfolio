@@ -8,6 +8,11 @@
     max-width: 800px;
     margin: 0 auto;
     margin-bottom: 50px;
+    list-style: none;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .portfolio-button {
@@ -32,9 +37,34 @@
     font-size: 40px;
 }
 
-#column img {
+#i img {
     margin-top: -12px;
     justify-content: center;
+}
+
+#j img {
+    margin-top: -12px;
+    justify-content: center;
+}
+
+#x img {
+    margin-top: -12px;
+    justify-content: center;
+}
+
+#i {
+    background: rgba(226, 205, 85, 0.116);
+    box-shadow: 3px 6px rgba(128, 128, 128, 0.308);
+}
+
+#j {
+    background: rgba(255, 192, 203, 0.158);
+    box-shadow: 3px 6px rgba(128, 128, 128, 0.308);
+}
+
+#x {
+    background: rgba(0, 77, 128, 0.11);
+    box-shadow: 3px 6px rgba(128, 128, 128, 0.308);
 }
 
 #app-name {

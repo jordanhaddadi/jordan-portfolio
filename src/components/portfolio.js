@@ -21,9 +21,9 @@ export const Portfolio = () => {
           { 
             portfolioData.portfolio && portfolioData.portfolio.map((item)=>{
               return(
-                <div className="portfolio-item">
+                <div className="portfolio-item" id={item.key}>
                   <ul className="row">
-                    <li id="column">
+                    <li key={item.key}>
                       <a href={item.live} target="_blank" rel="noopener noreferrer">
                       <h2 id="app-name">{item.name}</h2>
                       </a>
