@@ -23,9 +23,24 @@ export const AboutSection = () => {
                 <p id="location">{portfolioData.location}</p>
                 <p id="location-sub">{portfolioData["location-sub"]}</p>
                 <p id="location-sub-2">{portfolioData["location-sub-2"]}</p>
-                <h1 id="countries-h1">Where I've Been</h1>
-                <div id="icon-plane">{plane}</div>
-                <p id="countries">{portfolioData.countries}</p>
+                <div className="places-section">
+                    <h1 id="places-h1">Where I've Been</h1>
+                    <div id="icon-plane">{plane}</div>
+                    <div className="places">
+                    <ul className="all-places">
+                    {
+                        portfolioData.countries && portfolioData.countries.map((item)=>{
+                            return(
+                                <li className="places-li">
+                                    <p id="place-name">{item.Place}</p>
+                                    <p id="place"> {item.Places}</p>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+            </div>
+                </div>
             </div>
        )
     };

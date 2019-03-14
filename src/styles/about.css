@@ -23,30 +23,34 @@
   color: black;
 }
 
-.skills {
-  margin-top: -15px;
+.places {
+  list-style: upper-roman;
+  padding-bottom: 10px;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+#places-h1 {
+  font-size: 20px;
+  color:  black;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+#place-name {
+  font-weight: bold;
   text-align: left;
 }
 
-#skills-h1 {
-  font-size: 20px;
-  color:  black;
-  padding-top: 10px;
-  padding-bottom: 0px;
+#place {
+  text-align: left;
 }
 
-#location-h1 {
-  font-size: 20px;
-  color:  black;
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
-
-#countries-h1 {
-  font-size: 20px;
-  color:  black;
-  padding-top: 10px;
-  padding-bottom: 0px;
+.all-places {
+  list-style: none;
+  list-style: upper-roman;
 }
 
 #click-anywhere {
@@ -166,15 +170,12 @@
     font-style: italic;
 }
 
-.all-skills{
+.all-places{
+  list-style: none;
   list-style: upper-roman;
-  display: flex;
-  margin: 0 auto;
-  padding-bottom: 10px;
-  justify-content: center;
-  max-width: 700px;
+  max-width: 500px;
   width: 100%;
-  line-height: 1.5em;
+  margin: 0 auto;
 }
 
 #skill-name {
@@ -198,6 +199,11 @@
 
 @media screen and (max-width: 600px) {
 
+  .all-places {
+    max-width: 300px;
+    width: 100%;
+  }
+  
   #about-me {
     max-width: 325px;
     text-align: left;

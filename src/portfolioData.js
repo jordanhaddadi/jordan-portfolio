@@ -7,7 +7,32 @@ let portfolioData = {
     "about-me-sub":"As I continue to travel, I strive to bring it all together in my work. I'm inspired by the idea of creating something out of nothing, finding beauty in every detail, and working tirelessly towards a goal.",
     "about-me-sub-2":"As a developer, I have been fortunate to take part in numerous collaborative builds, from concept to deployment, with both junior and senior developers.",
     "about-me-sub-3":"I really love being part of a team, working with creative minds, learning new skills and ultimately, launching the finished product.",
-    "countries":"United States, Canada, Mexico, St.Kitts & Nevis, Bahamas, Grenada, Monsterrat, Puerto Rico, Anguilla, Morocco, France, Portugal, Spain, Turkey, Iceland, Italy, Germany, China... + so many more to come!",
+    "countries":[
+      {
+        "Place":"United States",
+        "Places":"Alaska, California, Utah, Oregon, Washington, Texas, New Hampshire, Maine, Massachusetts, Vermont, New York, Rhode Island, Connecticut, Pennsylvania, Michigan, Illinois, Florida"
+      },
+      {
+        "Place":"Europe",
+        "Places":"Iceland, Portugal, France, Spain, Germany, Italy"
+      },
+      {
+        "Place":"Caribbean",
+        "Places":"St. Kitts and Nevis (where I grew up!), St. Maarten, St. Barths, Guadalupe, Bahamas, Grenada, Monsteratt, Puerto Rico, Anguilla"
+      },
+      {
+        "Place":"Asia",
+        "Places":"China"
+      },
+      {
+        "Place":"Africa",
+        "Places":"Morocco"
+      },
+      {
+        "Place":"Other",
+        "Places":"Hawaii, Quebec"
+      },
+    ],
     "location":"Currently: Portland, Maine.",
     "location-sub":"I recently spent 10 years split between San Francisco and Brooklyn. Today you'll find me travelling up and down the East Coast between Maine, New York City and Boston. ",
     "location-sub-2":"I am currently open to remote work and/or opportunities that may require travel.",
