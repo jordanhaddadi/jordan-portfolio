@@ -1,0 +1,50 @@
+.tech-section {
+  background: rgb(0, 0, 0);
+  justify-content: center;
+  margin: 40px;
+  border: 1px solid grey;
+  box-shadow: 3px 6px rgba(128, 128, 128, 0.308);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.all-skills{
+    list-style: upper-roman;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.5em;
+}
+  
+#skill-name {
+    font-weight: bold;
+}
+
+#skill {
+    font-size: 16px;
+    max-width: 150px;
+}
+
+.skills {
+    margin-top: -15px;
+    text-align: left;
+    color: whitesmoke;
+}
+  
+#skills-h1 {
+    font-size: 28px;
+    color:  whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .all-skills {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -5%;
+    }
+}

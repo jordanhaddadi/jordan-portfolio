@@ -39,6 +39,11 @@ html {
   color: #61dafb;
 }
 
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: whitesmoke;
+}
+
 button:hover {
   background-color: #ed84b7;
 }

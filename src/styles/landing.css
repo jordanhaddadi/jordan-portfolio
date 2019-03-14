@@ -29,18 +29,11 @@
     margin-top: 100px;
   }
 
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin-top: 50px;
-  }
-
-  .nav button {
+  /* .nav button {
     padding: 10px;
     justify-content: space-between;
     margin: 10px;
-  }
+  } */
   
   .landing-text {
     display: flex;
@@ -118,11 +111,6 @@
   }
 
   @media screen and (max-width: 600px) {
-    .nav {
-    margin: 0 auto;
-    max-width: 80px;
-    justify-content: center;
-    }
 
     .body {
       max-width: 600px;

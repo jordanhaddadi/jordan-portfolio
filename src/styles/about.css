@@ -1,12 +1,8 @@
 .about-button {
-  color: whitesmoke;
-  background: rgba(0, 0, 0, 0.404);
   border: none;
   font-size: 15px;
   font-weight: bolder;
-  padding: 5px 10px;
   border-radius: 6px;
-  margin-top: 2px;
   cursor: pointer;
   }
 
@@ -201,13 +197,38 @@
 }
 
 @media screen and (max-width: 600px) {
-  .all-skills {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -5%;
-  }
 
   #about-me {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #about-me-sub {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #about-me-sub-2 {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #about-me-sub-3 {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #location {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #location-sub {
+    max-width: 325px;
+    text-align: left;
+  }
+
+  #location-sub-2 {
     max-width: 325px;
     text-align: left;
   }
@@ -215,6 +236,7 @@
   #countries {
     max-width: 325px;
     text-align: left;
+    margin-bottom: 15px;
   }
 }
 

@@ -16,7 +16,7 @@ export const Portfolio = () => {
 
     return (
       <section id="portfolio">
-          <h1 id="portfolio-h1">Featured Work: </h1>
+          <h1 id="portfolio-h1">Featured Work</h1>
           <div id="portfolio-wrapper">
           { 
             portfolioData.portfolio && portfolioData.portfolio.map((item)=>{

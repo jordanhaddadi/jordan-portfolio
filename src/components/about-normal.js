@@ -1,11 +1,10 @@
 import React from 'react';
 import portfolioData from '../portfolioData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFemale, faTools, faPlane, faMapPin } from '@fortawesome/free-solid-svg-icons'
+import { faFemale, faPlane, faMapPin } from '@fortawesome/free-solid-svg-icons'
 import '../styles/about.css';
 
 const female = <FontAwesomeIcon icon={faFemale} size="lg" style={{color: "black"}}/>;
-const tools = <FontAwesomeIcon icon={faTools} size="lg" style={{color: "black"}}/>;
 const plane = <FontAwesomeIcon icon={faPlane} size="lg" style={{color: "black"}}/>;
 const pin = <FontAwesomeIcon icon={faMapPin} size="lg" style={{color: "black"}}/>;
 
@@ -27,22 +26,6 @@ export const AboutSection = () => {
                 <h1 id="countries-h1">Where I've Been</h1>
                 <div id="icon-plane">{plane}</div>
                 <p id="countries">{portfolioData.countries}</p>
-                <h1 id="skills-h1">Technical Stack</h1>
-                <div id="icon-tools">{tools}</div>
-                <div className="skills">
-                    <ul className="all-skills">
-                    {
-                        portfolioData.skills && portfolioData.skills.map((item)=>{
-                            return(
-                            <li className="skills-li">
-                                <p id="skill-name">{item.skillName}</p>
-                                <p id="skill"> {item.skill}</p>
-                            </li>
-                            )
-                        })
-                    }
-                    </ul>
-                </div>
             </div>
        )
     };

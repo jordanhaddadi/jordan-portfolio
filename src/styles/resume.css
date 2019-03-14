@@ -26,13 +26,10 @@ img {
   }
 
 .resume-button {
-    color: whitesmoke;
-    background: rgba(0, 0, 0, 0.404);
     border: none;
     font-size: 15px;
     font-weight: bolder;
-    padding: 5px 10px;
     border-radius: 6px;
-    margin-top: 2px;
     cursor: pointer;
+    padding: 13px;
   }
