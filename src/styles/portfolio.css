@@ -41,8 +41,10 @@
     margin: 15px;
 }
 
-#tech-tools {
+#app-tech {
     margin: 15px;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 #app-description {
