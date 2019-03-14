@@ -56,7 +56,9 @@
     list-style: none;
     justify-content: center;
     border: 1px solid grey;
-    background: #f4f4f4;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
 }
 
 img.item-img {

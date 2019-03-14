@@ -25,16 +25,21 @@ export const Portfolio = () => {
                   <ul className="row">
                     <li id="column">
                       <a href={item.live}>
-                      <h2>{item.name}</h2></a>
-                      {mobile} + {web}
-                      <h5>{item.type}</h5>
+                        <h2>{item.name}</h2>
+                        {mobile} + {web}
+                        <h5>{item.type}</h5>
+                      </a>
                       <div id="tech-tools">
                         {tools}
                         <p id="app-tech">{item.tech}</p>
                       </div>
+                      <a href={item.source}>
                         {src}
-                        <a href={item.source}><p>Source Code</p></a>
-                        <img src={window.location.origin + `${item.imgurl}`} className="item-img" alt="screenshot"/>
+                        <p>Source Code</p>
+                      </a>
+                      <a href={item.live}>
+                      <img src={window.location.origin + `${item.imgurl}`} className="item-img" alt="screenshot"/>
+                      </a>
                       <div id="app-info">
                         {info}
                         <p id="app-description">{item.description}</p>
