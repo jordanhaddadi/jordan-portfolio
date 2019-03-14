@@ -43,7 +43,7 @@ export const Resume = () => {
     const ResumeSection = () => {
         return (
             <div className="resume">
-            <img src={window.location.origin + `${portfolioData.resume}`} className="resume-img" alt="resume"/>
+            <embed src={window.location.origin + `${portfolioData.resume}`} className="resume-img" alt="resume" type="application/pdf" width="100%" height="600px"/>
             </div>
         )
     }

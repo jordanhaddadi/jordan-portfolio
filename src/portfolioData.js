@@ -24,10 +24,9 @@ let portfolioData = {
         "skill": "Sketch, Adobe Suite, Vue, Blaze"
       }
     ],
-    "resume":"/assets/resume.jpg", 
-    "line-break":"p",
-    "portfolio":[
-      {
+    "resume":"/assets/dev-res.pdf", 
+    "portfolio":[ 
+      {   
         "name":"HollyWomen",
         "description": "Demographics Calculator for the modern age. Enter any Movie or TV Show to view poster titles and learn how many women were cast in proportion to men. This app was built with the intention of being used for bibliographical and research purposes, as well as general entertainment/awareness of what is a largely disregarded gender gap.",
         "tech":"Node.js, Express, GraphQL, MongoDB, React/Redux, Mocha/Chai, TravisCI, Heroku",
