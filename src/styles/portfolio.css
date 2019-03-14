@@ -125,7 +125,9 @@ img.item-img {
 img:hover {
     transform: scale (2.1);
     cursor: pointer;
-    border: 2px solid teal;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    box-shadow: 3px 6px rgba(128, 128, 128, 0.171);
+    background: rgba(255, 255, 255, 0.192);
 }
 
 @media screen and (max-width: 800px) {

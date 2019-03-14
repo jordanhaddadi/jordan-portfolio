@@ -25,6 +25,7 @@ let portfolioData = {
       }
     ],
     "resume":"/assets/resume.jpg", 
+    "line-break":"p",
     "portfolio":[
       {
         "name":"HollyWomen",
