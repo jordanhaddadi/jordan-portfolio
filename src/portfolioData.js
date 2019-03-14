@@ -62,7 +62,7 @@ let portfolioData = {
       },
       {
         "skillName":"Dev Tools: ",
-        "skill":"Git/GitHub, NPM, Trello"
+        "skill":"Git/GitHub, NPM, Heroku, TravisCI, Trello"
       },
       {
         "skillName":"Now Learning: ",
