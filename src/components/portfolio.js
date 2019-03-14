@@ -23,7 +23,7 @@ export const Portfolio = () => {
               return(
                 <div className="portfolio-item" id={item.key}>
                   <ul className="row">
-                    <li key={item.key}>
+                    <li id={item.key2}>
                       <a href={item.live} target="_blank" rel="noopener noreferrer">
                       <h2 id="app-name">{item.name}</h2>
                       </a>

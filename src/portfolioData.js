@@ -4,7 +4,7 @@ let portfolioData = {
     "image": "/assets/IMG_0033.JPG",
     "roleDescription": "Jordan is passionate about the web, design, photography & travel. Explore and learn more by clicking the links above. Reach out personally by clicking 'Contact'.",
     "aboutme":"   Living and loving in the American Northeast, I've been incredibly fortunate to have traveled the world at a very young age. I credit my lust for life and aesthetic sensibility to the countries and cultures that have shaped me. As I continue to travel, I strive to bring it all together in my work. I'm inspired by the idea of creating something out of nothing, finding beauty in every detail, and working tirelessly towards a goal. As a developer, I have been fortunate to take part in numerous collaborative builds, from concept to deployment, with both junior and senior developers. I really love being part of a team, working with creative minds, learning new skills and ultimately-- launching the finished product.",
-    "countries":"United States, Canada, Mexico, St.Kitts & Nevis, Guadalupe, St. Maartin, St. Barths, Bahamas, Grenada, Monsterrat, Puerto Rico, Anguilla, Morocco, France, Portugal, Spain, Turkey, Iceland, Italy, Germany, China... + so many more to come!",
+    "countries":"United States, Canada, Mexico, St.Kitts & Nevis, Bahamas, Grenada, Monsterrat, Puerto Rico, Anguilla, Morocco, France, Portugal, Spain, Turkey, Iceland, Italy, Germany, China... + so many more to come!",
     "location":"East Coast",
     "skills":[
       {
@@ -35,7 +35,8 @@ let portfolioData = {
         "imgurl":"/assets/holly-double.png", 
         "live": "https://hollywomen.herokuapp.com/",
         "source":"https://github.com/thinkful-ei26/jordan-hollywomen-client",
-        "key":"i"
+        "key":"i",
+        "key2":"l"
       }, 
       {
         "name":"RoadRate",
@@ -45,7 +46,8 @@ let portfolioData = {
         "imgurl":"/assets/road-work.png",
         "live": "https://road-rate-client.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/roadrate-client",
-        "key":"j"
+        "key":"j",
+        "key2":"w"
       }, 
       {  
         "name":"Alternis Vicibus",
@@ -55,7 +57,8 @@ let portfolioData = {
         "imgurl":"/assets/spaced-reppy-2.png",
         "live": "https://alternis-vicibus.herokuapp.com/",
         "source": "https://github.com/thinkful-ei26/spaced-rep-jordan-client",
-        "key":"x"
+        "key":"x",
+        "key2":"r"
       },
     ],
   }

@@ -17,11 +17,14 @@ export const LandingPage = () => {
                         <h1>{portfolioData.name}</h1>
                         <p id="role">{portfolioData.role}</p>
                         <div className="nav">
-                            <ScrollIntoView selector=".landing-portfolio">
-                                <button className="portfolio-button">Portfolio</button>
-                            </ScrollIntoView>
-                             <ScrollIntoView selector=".landing-about">
+                             <ScrollIntoView selector="#about-h1">
                                 <button className="about-button">About</button>
+                            </ScrollIntoView>
+                            <ScrollIntoView selector=".all-skills">
+                                <button className="about-button">Tech</button>
+                            </ScrollIntoView>
+                            <ScrollIntoView selector="#portfolio-h1">
+                                <button className="portfolio-button">Portfolio</button>
                             </ScrollIntoView>
                             <ScrollIntoView selector=".landing-contact">
                                 <button className="contact-button">Contact</button>
