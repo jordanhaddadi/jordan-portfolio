@@ -43,6 +43,7 @@ export const Portfolio = () => {
                       <div id="app-info">
                         {info}
                         <p id="app-description">{item.description}</p>
+                        <p id="app-description-sub">{item["description-sub"]}</p>
                       </div>
                     </li>
                   </ul>
