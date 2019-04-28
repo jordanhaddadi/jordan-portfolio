@@ -12,12 +12,12 @@ body {
   margin: auto auto;
 }
 
-html {
+/* html {
   text-align: center;
   box-sizing: border-box;
   max-width: 100%;
   flex-wrap: wrap;
-}
+} */
 
 
 .App {
@@ -62,3 +62,12 @@ a {
 a:visited {
   color: purple;
 }
+
+@media screen and (max-width: 600px) {
+
+  body {
+    max-width: 600px;
+    width: 100%;
+  }
+
+} 

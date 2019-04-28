@@ -205,15 +205,15 @@
 @media screen and (max-width: 600px) {
 
   .all-places {
-    max-width: 300px;
-    width: 100%;
+    max-width: 325px;
     margin-left: 0;
+    text-align: left;
   }
 
   .where-im-at {
-    max-width: 300px;
-    width: 100%;
+    max-width: 325px;
     margin-left: 0;
+    text-align: left;
   }
   
   #about-me {
