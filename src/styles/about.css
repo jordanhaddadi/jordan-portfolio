@@ -207,6 +207,13 @@
   .all-places {
     max-width: 300px;
     width: 100%;
+    margin-left: 0;
+  }
+
+  .where-im-at {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 0;
   }
   
   #about-me {
