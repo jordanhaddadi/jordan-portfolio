@@ -1,7 +1,9 @@
 #menuToggle
 {
-  display: block;
+  /* display: block; */
   position: relative;
+  width: 150px;
+  max-width: 100%;
   top: 22px;
   left: 10px;
   
@@ -13,8 +15,8 @@
 
 #menuToggle input
 {
-  display: block;
-  width: 40px;
+  /* display: block; */
+  width: 30px;
   height: 32px;
   position: absolute;
   top: -7px;
@@ -34,7 +36,7 @@
 #menuToggle span
 {
   display: block;
-  width: 27px;
+  width: 25px;
   height: 3px;
   margin-bottom: 5px;
   position: relative;
@@ -80,7 +82,7 @@
 
 #menu {
     position: absolute;
-    width: 400px;
+    width: 375px;
     height: 278px;
     margin: -100px 0 0 -50px;
     padding-top: 100px;

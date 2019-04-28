@@ -63,10 +63,14 @@ a:visited {
   color: purple;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
   body {
-    margin: 2px;
+    margin: 0 auto;
+  }
+
+  .home {
+    width: 100%;
   }
 
 } 

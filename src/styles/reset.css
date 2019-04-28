@@ -19,10 +19,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} */
 body {
 	line-height: 1;
 }
@@ -43,9 +43,9 @@ table {
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
-html {
+/* html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: border-box;
-}
+} */
