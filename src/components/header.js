@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardBody, CardHeader, CardSubtitle, CardImg } from 'reactstrap';
-// import {Link} from 'react-router-dom';
 
 export const Header = () => {
     return (
