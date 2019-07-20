@@ -6,9 +6,9 @@
   .landing-top {
     position: relative;
     background:  linear-gradient(
-      rgb(25, 109, 98), 
-      rgb(75, 11, 37)
-    ), url('../assets/waterdogs.jpeg');
+      rgba(255, 255, 255, 0), 
+      rgba(255, 255, 255, 0.46)
+    ), url('../assets/wavybaby.jpeg');
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
