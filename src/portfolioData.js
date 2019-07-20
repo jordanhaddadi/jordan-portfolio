@@ -1,8 +1,8 @@
 let portfolioData = {
     "name": "Jordan Elizabeth Haddadi",
-    "role": "Front-End Development & Design",
+    "role": "Full Stack Development & Front-End Design",
     "image": "/assets/IMG_0033.JPG",
-    "roleDescription": "Passionate about the web, design, photography & travel, I am always learning and looking to evolve my skills. Don't forget to reach out and say hi!",
+    "roleDescription": "Living and loving in the North East, Jordan is passionate about good web design, guilty pleasure reality tv shows & travel. Don't forget to reach out and say hi!",
     "aboutme":"   Living and loving in the American Northeast, I've been incredibly fortunate to have traveled the world at a very young age. I credit my lust for life and aesthetic sensibility to the countries and cultures that have shaped me.",
     "about-me-sub":"As I continue to travel, I strive to bring it all together in my work. I'm inspired by the idea of creating something out of nothing, finding beauty in every detail, and working tirelessly towards a goal.",
     "about-me-sub-2":"As a developer, I have been fortunate to take part in numerous collaborative builds, from concept to deployment, with both junior and senior developers.",

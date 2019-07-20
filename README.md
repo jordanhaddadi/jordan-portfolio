@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Jordan Elizabeth Haddadi 
 
-Living and loving in the North East, Jordan is passionate about the web, design, photography & travel. 
+Living and loving in the North East, Jordan is passionate about good web design, guilty pleasure reality tv shows & travel. 
 
 ## About My Portfolio:
 
